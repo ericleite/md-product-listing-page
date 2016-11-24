@@ -1,0 +1,29 @@
+.Product-inner {
+  position: relative;
+  padding: 1.25em;
+}
+
+.Product-image {
+  display: block;
+}
+
+.Product-title {
+  margin: 1em 0 0.75em;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.Product-description {
+  margin: 1em 0 0.75em;
+  color: #666;
+  font-size: 0.75em;
+}
+
+.Product-price {
+  margin: 1em 0 0.75em;
+  color: #666;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 0.75em;
+  font-weight: 700;
+}

@@ -1,0 +1,94 @@
+.Cart {
+  width: 100%;
+  max-width: 960px;
+  margin: 2.5em auto;
+}
+
+.Cart-item {
+  margin-bottom: 1.25em;
+  padding: 1.25em;
+  background-color: #fafafb;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+.Cart-item .Product {
+  display: table;
+  width: 100%;
+}
+
+.Cart-item .Product-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 1em;
+}
+
+.Cart-item .Product-cell:last-child {
+  padding-right: 0;
+}
+
+.Cart-item .Product-actions {
+  width: 5em;
+}
+
+.Cart-item .Product-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 5em;
+}
+
+.Cart-item .Product-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.Cart-item .Product-actions .Product-actions-count {
+  display: block;
+  width: 3.5em;
+  margin: 0 auto 1em;
+}
+
+.Cart-item .Product-actions .Product-actions-update {
+  display: block;
+}
+
+.Cart-item .Product-price {
+  width: 5em;
+  font-size: 1em;
+  color: #333;
+}
+
+.Cart-item .Product-remove {
+  width: 2em;
+  text-align: right;
+}
+
+.Cart-summary {
+  width: 100%;
+  margin: 2.5em 0;
+}
+
+.Cart-promo {
+  float: left;
+  padding: 1.25em;
+  background-color: #fafafb;
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+.Cart-subtotal {
+  float: right;
+  font-family: 'Playfair Display', sans-serif;
+  text-align: right;
+}
+
+.Cart-subtotal-value {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.Cart-actions {
+  margin: 2.5em 0;
+  text-align: center;
+}
